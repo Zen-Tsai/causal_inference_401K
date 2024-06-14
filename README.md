@@ -54,8 +54,10 @@ To gain initial insights, exploratory data analysis was performed:
 
 ### Data Preparation for DoubleML
 The treatment effect of `e401` on net total financial assets was analyzed using the following model:
-\[ Y = D\alpha + f(X)'\beta + \epsilon \]
-where \( f(X) \) is a dictionary applied to the raw regressors. \( X \) contains variables on marital status, two-earner status, defined benefit pension status, IRA participation, home ownership, family size, education, age, and income.
+$$
+Y = D\alpha + f(X)'\beta + \epsilon
+$$
+where $f(X)$ is a dictionary applied to the raw regressors. $X$ contains variables on marital status, two-earner status, defined benefit pension status, IRA participation, home ownership, family size, education, age, and income.
 
 Two sets of features were defined:
 - **Basic Features**: Age, income, education, family size, marital status, dual earners, defined benefit plan, personal IRA, and home ownership.
